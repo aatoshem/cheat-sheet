@@ -43,3 +43,15 @@ for (String item: shapes) {
 triangle
 circle
 */
+```
+- Print Even/Odd Numbers (start from 1 (odd) or start from 0 (even))
+```java
+public class ForLoopExample {
+    public static void main(String[] args) {
+        // Example: Printing even numbers from 1 to 10
+        for (int i = 1, j = 2; i <= 10; i++, j += 2) {
+            System.out.println(j);
+        }
+    }
+}
+```
